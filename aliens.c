@@ -26,6 +26,18 @@
 #include "player.h"
 #include "nInvaders.h"
 
+Aliens aliens;
+
+int shipnum;
+
+int lowest_ship[ALIENS_MAX_NUMBER_X];
+int alienshotx[ALIENS_MAX_MISSILES];
+int alienshoty[ALIENS_MAX_MISSILES];
+int alienshotnum;
+int alienBlock[ALIENS_MAX_NUMBER_Y][ALIENS_MAX_NUMBER_X];
+
+int bunker[BUNKERHEIGHT][BUNKERWIDTH + 1];
+
 /**
  * initialize aliens attributes
  */

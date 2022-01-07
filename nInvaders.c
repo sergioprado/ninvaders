@@ -32,6 +32,10 @@
 
 #define FPS 50
 
+int weite;
+int level;
+int skill_level;
+
 int lives;
 long score;
 int status; // status handled in timer
